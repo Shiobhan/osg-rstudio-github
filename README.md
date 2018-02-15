@@ -11,3 +11,20 @@ Goals of this session:
 4. Make edits within RStudio, then commit and push back to GitHub.
 
 5. Create a brand new GitHub repository, and repeat 3 and 4.
+
+<BR>
+
+#### 1. Link your RStudio application with your GitHub account
+
+The document "Happy Git and GitHub for the useR":
+
+http://happygitwithr.com
+
+provides detailed advice on how (and why) to integrate GitHub with RStudio.
+
+In particular, [Section 3.1](http://happygitwithr.com/workshops.html#pre-workshop-set-up) of that document provides instructions on linking your GitHub account with your local RStudio installation.
+
+<BR>
+
+#### 2. Fork an existing repository on GitHub.
+
