@@ -36,3 +36,10 @@ To get started, let's find a really simple repository ("repo") on GitHub, and co
 Now that we have a GitHib reposiory that we would like to modify, we can use the 
 Git functionality with RStudio to do this (we talk about this being a "local" copy of the repository, since it is copied, or "cloned" to our laptop or desktop computer), and set the local repo up as a RStudio project.
 
+1. Within RStudio, choose "New Project" from the "File" menu, and then select "Version Control"
+from the popup that appears.  
+
+2. Click "Git", and then paste the repository URL (the one associated YOUR account, not my original) into the "Repository URL:" field.  HINT: hitting tab will populate the "Project Directory Name" with the original name of the repository (but you can also call it anything you want).  
+
+3. Choose where on your computer the repository will live.  For me, this is `~/GitHub/`
+
