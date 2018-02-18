@@ -28,3 +28,11 @@ In particular, [Section 3.1](http://happygitwithr.com/workshops.html#pre-worksho
 
 #### 2. Fork an existing repository on GitHub.
 
+To get started, let's find a really simple repository ("repo") on GitHub, and copy 
+("fork") it to our own GitHub account so that we can make modifications to it.
+
+#### 3. Clone the repository to your computer as an RStudio project.
+
+Now that we have a GitHib reposiory that we would like to modify, we can use the 
+Git functionality with RStudio to do this (we talk about this being a "local" copy of the repository, since it is copied, or "cloned" to our laptop or desktop computer), and set the local repo up as a RStudio project.
+
