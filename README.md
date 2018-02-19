@@ -29,7 +29,11 @@ In particular, [Section 3.1](http://happygitwithr.com/workshops.html#pre-worksho
 #### 2. Fork an existing repository on GitHub.
 
 To get started, let's find a really simple repository ("repo") on GitHub, and copy 
-("fork") it to our own GitHub account so that we can make modifications to it.
+("fork") it to our own GitHub account so that we can make modifications to it:
+
+1. Navigate to the repository: https://github.com/mikblack/osg_test_repo
+
+2. Click the "Fork" button (upper right of screen) to copy the repository to your own account.
 
 #### 3. Clone the repository to your computer as an RStudio project.
 
