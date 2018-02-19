@@ -43,7 +43,24 @@ from the popup that appears.
 
 3. Choose where on your computer the repository will live (for me, this is the `~/GitHub/` directory), and then click "Create Project". If you click the "Open in new session" checkbox, then a new instance of RStudio will be opened with the new project loaded (otherwise the project opens in the current RStudio instance).
 
-4. You've done it! The GitHub repo that you forked via the website has now been copied to you local computer.
+4. You've done it! The GitHub repo that you forked via the website has now been copied to you  computer. Click on the "Files" tab (bottom right panel of RStudio interface) to prove it - you should see a list of all the files in the top directory of the repo (just like on the GitHub website).
+
+#### 4. Make edits within RStudio, then commit and push back to GitHub.
+
+Now it gets cool - let's make some edits.  The repository you cloned only contains a few files - the main one is `README.md`, which describes the repo itself (this is what is displayed when you visit the repo's page on GitHub).
+
+1. Click on the `README.md` file in the "Files" tab on open it in the RStudio editor.
+
+2. Make some edits!  Just add some text and then save it.
+
+3. Go to the panel above, and find the "Git" tab.  Clicking on the should reveal a list of files that have been altered since we cloned the repository.  Click to "stage" the altered files (i.e., get them rewady for syncing with GitHub), and then click the "Commit"" button above the file names - this will open the "Review Changes" window.
+
+4. Write a Commit message!  The Review window allows you to click on each altered file and see the additions (green) and deletions (red) relative to the previous version.  Write a brief message explaining the changes in the "Commit message" box, and then click commit.
+
+5. To "push" the changesup to GitHub, click the "Push" button in the top-right of the Review window.  Woohoo!  You have just sent the changes back to GitHub.  
+
+6. Let's have a look - go to the repository web page on the GitHub site, and refresh the browser.  You should see your commit message next to the names of the altered files, and the message below the file list should now contain your edits from the `README.md` file.
+
 
 
 
