@@ -61,6 +61,18 @@ Now it gets cool - let's make some edits.  The repository you cloned only contai
 
 6. Let's have a look - go to the repository web page on the GitHub site, and refresh the browser.  You should see your commit message next to the names of the altered files, and the message below the file list should now contain your edits from the `README.md` file.
 
+#### 5. Create a brand new GitHub repository, and repeat 3 and 4.
 
+Your turn to try it, from scratch.  
+
+1. Go back to the main page of your GitHub account and click on the "Repositories" tab.
+
+2. Click on the green "New" button (on the right of the page).
+
+3. Give your repo a name, choose to make it public, choose "Initialize this repository with a README", and then click "Create repository" (for now you can ignore the "Add .gitignore" and "Add a license" options.
+
+4. Once you have created you new repository, you can repeat the steps we went through above to clone the repository to your computer.  Note that since you already own this repository, there is no need for you to fork it.
+
+5. Now add some code!  Once the repo is set up as an R project, try adding a new file containing some R code.  Can you push your new file back to GitHub?  
 
 
