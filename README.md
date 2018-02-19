@@ -41,5 +41,9 @@ from the popup that appears.
 
 2. Click "Git", and then paste the repository URL (the one associated YOUR account, not my original) into the "Repository URL:" field.  HINT: hitting tab will populate the "Project Directory Name" with the original name of the repository (but you can also call it anything you want).  
 
-3. Choose where on your computer the repository will live.  For me, this is `~/GitHub/`
+3. Choose where on your computer the repository will live (for me, this is the `~/GitHub/` directory), and then click "Create Project". If you click the "Open in new session" checkbox, then a new instance of RStudio will be opened with the new project loaded (otherwise the project opens in the current RStudio instance).
+
+4. You've done it! The GitHub repo that you forked via the website has now been copied to you local computer.
+
+
 
