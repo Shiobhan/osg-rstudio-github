@@ -142,6 +142,44 @@ $(document).ready(function () {
 </div>
 <div id="fork-an-existing-repository-on-github." class="section level4">
 <h4>2. Fork an existing repository on GitHub.</h4>
+<p>To get started, let’s find a really simple repository (“repo”) on GitHub, and copy (“fork”) it to our own GitHub account so that we can make modifications to it:</p>
+<ol style="list-style-type: decimal">
+<li><p>Navigate to the repository: <a href="https://github.com/mikblack/osg_test_repo" class="uri">https://github.com/mikblack/osg_test_repo</a></p></li>
+<li><p>Click the “Fork” button (upper right of screen) to copy the repository to your own account.</p></li>
+</ol>
+</div>
+<div id="clone-the-repository-to-your-computer-as-an-rstudio-project." class="section level4">
+<h4>3. Clone the repository to your computer as an RStudio project.</h4>
+<p>Now that we have a GitHib reposiory that we would like to modify, we can use the Git functionality with RStudio to do this (we talk about this being a “local” copy of the repository, since it is copied, or “cloned” to our laptop or desktop computer), and set the local repo up as a RStudio project.</p>
+<ol style="list-style-type: decimal">
+<li><p>Within RStudio, choose “New Project” from the “File” menu, and then select “Version Control” from the popup that appears.</p></li>
+<li><p>Click “Git”, and then paste the repository URL (the one associated YOUR account, not my original) into the “Repository URL:” field. HINT: hitting tab will populate the “Project Directory Name” with the original name of the repository (but you can also call it anything you want).</p></li>
+<li><p>Choose where on your computer the repository will live (for me, this is the <code>~/GitHub/</code> directory), and then click “Create Project”. If you click the “Open in new session” checkbox, then a new instance of RStudio will be opened with the new project loaded (otherwise the project opens in the current RStudio instance).</p></li>
+<li><p>You’ve done it! The GitHub repo that you forked via the website has now been copied to you computer. Click on the “Files” tab (bottom right panel of RStudio interface) to prove it - you should see a list of all the files in the top directory of the repo (just like on the GitHub website).</p></li>
+</ol>
+</div>
+<div id="make-edits-within-rstudio-then-commit-and-push-back-to-github." class="section level4">
+<h4>4. Make edits within RStudio, then commit and push back to GitHub.</h4>
+<p>Now it gets cool - let’s make some edits. The repository you cloned only contains a few files - the main one is <code>README.md</code>, which describes the repo itself (this is what is displayed when you visit the repo’s page on GitHub).</p>
+<ol style="list-style-type: decimal">
+<li><p>Click on the <code>README.md</code> file in the “Files” tab on open it in the RStudio editor.</p></li>
+<li><p>Make some edits! Just add some text and then save it.</p></li>
+<li><p>Go to the panel above, and find the “Git” tab. Clicking on the should reveal a list of files that have been altered since we cloned the repository. Click to “stage” the altered files (i.e., get them rewady for syncing with GitHub), and then click the “Commit”&quot; button above the file names - this will open the “Review Changes” window.</p></li>
+<li><p>Write a Commit message! The Review window allows you to click on each altered file and see the additions (green) and deletions (red) relative to the previous version. Write a brief message explaining the changes in the “Commit message” box, and then click commit.</p></li>
+<li><p>To “push” the changesup to GitHub, click the “Push” button in the top-right of the Review window. Woohoo! You have just sent the changes back to GitHub.</p></li>
+<li><p>Let’s have a look - go to the repository web page on the GitHub site, and refresh the browser. You should see your commit message next to the names of the altered files, and the message below the file list should now contain your edits from the <code>README.md</code> file.</p></li>
+</ol>
+</div>
+<div id="create-a-brand-new-github-repository-and-repeat-3-and-4." class="section level4">
+<h4>5. Create a brand new GitHub repository, and repeat 3 and 4.</h4>
+<p>Your turn to try it, from scratch.</p>
+<ol style="list-style-type: decimal">
+<li><p>Go back to the main page of your GitHub account and click on the “Repositories” tab.</p></li>
+<li><p>Click on the green “New” button (on the right of the page).</p></li>
+<li><p>Give your repo a name, choose to make it public, choose “Initialize this repository with a README”, and then click “Create repository” (for now you can ignore the “Add .gitignore” and “Add a license” options.</p></li>
+<li><p>Once you have created you new repository, you can repeat the steps we went through above to clone the repository to your computer. Note that since you already own this repository, there is no need for you to fork it.</p></li>
+<li><p>Now add some code! Once the repo is set up as an R project, try adding a new file containing some R code. Can you push your new file back to GitHub?</p></li>
+</ol>
 </div>
 </div>
 
